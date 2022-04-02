@@ -1,0 +1,17 @@
+<!DOCTYPE>
+{% load static %}
+<html>
+    <head>
+        <title>Second Template</title>
+        <link rel="stylesheet" href="{% static "css/empl.css" %}" />
+    </head>
+    <body>
+        <h1>View from Templates App</h1>
+        <ol>
+        <li>id: {{id}}</li>
+        <li>name :{{name}}</li>
+        <li>salary: {{salary}}</li>
+        </ol>
+        <img src="{% static "images/invoice-discounting.png" %}" />
+    </body>
+</html>
